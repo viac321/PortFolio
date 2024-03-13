@@ -13,7 +13,8 @@
           "profession": "Fullstack Web Developer",
           "name": "Ivan Aguirre" ,
           "about": "Passionate about coding and problem solving. since I was a child I´ve loved challenges, while studying about bionics i could learn more about what coding can do and it made me realize i wanted to start the path of the coder, facing all the opportunities to grow and be more capable.",
-          "cv": "Download my CV"
+          "cv": "Download my CV",
+          "cvLink":"https://1drv.ms/w/s!AhdEVC_vuxsm_nUNfJkrPYjVkgd-?e=Boi3Ca"
     },
     "NavBar": {
         "Home": "Home",

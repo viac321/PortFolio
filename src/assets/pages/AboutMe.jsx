@@ -12,7 +12,9 @@ const AboutMe = () => {
         <article className="p-10" >
           <div className="p-10 text-c-1 dark:text-d-4">
             <p className="text-xl">{t("About.tech")}</p>
+            <div className=" flex justify-center">
             <Technologies />
+            </div>
           </div>
           <div className="p-10 w-full">
             <h2 className="pb-8 text-c-1 dark:text-d-1 text-xl">{t("SoftSkills.skill")}</h2>
@@ -20,7 +22,9 @@ const AboutMe = () => {
           </div>
           <div className="p-10 w-full" >
             <h2 className="pb-10 text-xl text-c-1 dark:text-d-1">{t("Edu.title")}</h2>
+            <div className="flex justify-center" >
             <Education />
+            </div>
           </div>
         </article>
       </div>

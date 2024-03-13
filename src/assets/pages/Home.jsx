@@ -1,5 +1,6 @@
 
 import { useTranslation } from "react-i18next"
+import { Link } from "react-router-dom"
 
 
 const Home = () => {
@@ -25,11 +26,14 @@ const [t] =useTranslation()
            {t("Home.about")}
           </p>
         </section>
-        <button className="mt-5 ml-5 p-1
+       
+        <Link className="mt-5 ml-5 p-1
              hover:text-c-1 text-c-4 hover:bg-c-4 bg-c-1 dark:hover:text-d-1 dark:text-d-4 dark:hover:bg-d-4 dark:bg-d-1 rounded-xl"
-            type="button">
+          to={t("Home.cvLink")}>
+              
            {t("Home.cv")}
-        </button>
+        </Link>
+        
         </div>
         
       </main>

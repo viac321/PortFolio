@@ -1,67 +1,87 @@
+import useEmblaCarousel from 'embla-carousel-react'
+
 const Technologies = () => {
+  const [emblaRefTec] = useEmblaCarousel();
   return (
-    <div className="p-10 h-max-[332px] w-max-[332px]">
+    <div className="p-10">
       
-      <div className="gap-4  justify-center items-center text-sm">
-        <div className="flex gap-5 flex-wrap justify-center items-center text-center">
-          <div className="hover:shadow-2xl hover:shadow-d-3 dark:hover:shadow-c-3">
-            <img className="" src="/img/html.svg" alt="" />
-            <p className="tech__text">HTML</p>
+      <div className="gap-4 text-sm overflow-hidden"  ref={emblaRefTec}>
+        <div className="flex gap-4">
+          <div className="hover:shadow-2xl hover:shadow-d-3 dark:hover:shadow-c-3
+          flex flex-grow-0 flex-shrink-0 flex-col text-center
+          min-w-0 gap-4">
+            <img className="size-[48px] bg-c-3 dark:bg-d-3 rounded-xl" src="/img/html.svg" alt="" />
+            <p className="">HTML</p>
           </div>
 
-          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3">
-            <img className="" src="/img/css.svg" alt="" />
-            <p className="tech__text">CSS</p>
+          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3
+          flex flex-grow-0 flex-shrink-0 flex-col text-center 
+          min-w-0 gap-4 ">
+            <img className="size-[48px] bg-c-3 dark:bg-d-3 rounded-xl" src="/img/css.svg" alt="" />
+            <p className="">CSS</p>
           </div>
-          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3">
-            <img className="" src="/img/js.svg" alt=""></img>
-            <p className="tech__text">JavaScript</p>
-          </div>
-
-          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3">
-            <img className="" src="/img/react.svg" alt="" />
-            <p className="tech__text">React</p>
-          </div>
-          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3">
-            <img className="size-[48px]" src="/img/tailwind-svgrepo-com.svg" alt="" />
-            <p className="tech__text">Tail Wind</p>
-          </div>
-          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3">
-            <img className="size-[48px]" src="/img/redux-svgrepo-com.svg" alt="" />
-            <p className="tech__text">Redux</p>
-          </div>
-          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3">
-            <img className="size-[48px]" src="/img/nodejs-svgrepo-com.svg" alt="" />
-            <p className="tech__text">Nodejs </p>
-          </div>
-          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3">
-            <img className="size-[48px]" src="/img/express-svgrepo-com.svg" alt="" />
-            <p className="tech__text">Express </p>
+          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3
+          flex flex-grow-0 flex-shrink-0 flex-col text-center justify-center 
+          min-w-0 gap-4">
+            <img className="size-[48px] bg-c-3 dark:bg-d-3 rounded-xl" src="/img/js.svg" alt=""></img>
+            <p className="">JavaScript</p>
           </div>
 
-          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3">
-            <img className="size-[48px]" src="/img/postman-icon-svgrepo-com.svg" alt="" />
-            <p className="tech__text">PostMan </p>
+          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3
+          flex flex-grow-0 flex-shrink-0 flex-col text-center min-w-0 gap-4">
+            <img className="size-[48px] bg-c-3 dark:bg-d-3 rounded-xl" src="/img/react.svg" alt="" />
+            <p className="">React</p>
+          </div>
+          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3
+          flex flex-grow-0 flex-shrink-0 flex-col text-center min-w-0 gap-4">
+            <img className="size-[48px] text-center 
+             bg-c-3 dark:bg-d-3 rounded-xl" src="/img/tailwind-svgrepo-com.svg" alt="" />
+            <p className="">Tail Wind</p>
+          </div>
+          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3
+          flex flex-grow-0 flex-shrink-0 flex-col text-center min-w-0 gap-4">
+            <img className="size-[48px] bg-c-3 dark:bg-d-3 rounded-xl" src="/img/redux-svgrepo-com.svg" alt="" />
+            <p className="">Redux</p>
+          </div>
+          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3
+          flex flex-grow-0 flex-shrink-0 flex-col text-center min-w-0 gap-4">
+            <img className="size-[48px] bg-c-3 dark:bg-d-3 rounded-xl" src="/img/nodejs-svgrepo-com.svg" alt="" />
+            <p className="">Nodejs </p>
+          </div>
+          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3
+          flex flex-grow-0 flex-shrink-0 flex-col text-center min-w-0 gap-4">
+            <img className="size-[48px] bg-c-3 dark:bg-d-3 rounded-xl" src="/img/express-svgrepo-com.svg" alt="" />
+            <p className="">Express </p>
           </div>
 
-          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3">
-            <img className="" src="/img/git.svg" alt="" />
-            <p className="tech__text">Git</p>
+          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3
+          flex flex-grow-0 flex-shrink-0 flex-col text-center min-w-0 gap-4">
+            <img className="size-[48px] bg-c-3 dark:bg-d-3 rounded-xl" src="/img/postman-icon-svgrepo-com.svg" alt="" />
+            <p className="">PostMan </p>
           </div>
 
-          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3">
-            <img className="size-[48px]" src="/img/github.svg" alt="" />
-            <p className="tech__text">GitHub</p>
+          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3
+          flex flex-grow-0 flex-shrink-0 flex-col text-center min-w-0 gap-4">
+            <img className="size-[48px] bg-c-3 dark:bg-d-3 rounded-xl" src="/img/git.svg" alt="" />
+            <p className="">Git</p>
           </div>
 
-          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3">
-            <img className="" src="/img/matlab.svg" alt="" />
-            <p className="tech__text">M </p>
+          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3
+          flex flex-grow-0 flex-shrink-0 flex-col text-center min-w-0 gap-4">
+            <img className="size-[48px] bg-c-3 dark:bg-d-3 rounded-xl" src="/img/github.svg" alt="" />
+            <p className="">GitHub</p>
           </div>
 
-          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3">
-            <img className="" src="/img/python.svg" alt="" />
-            <p className="tech__text">Python</p>
+          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3
+          flex flex-grow-0 flex-shrink-0 flex-col text-center min-w-0 gap-4">
+            <img className="size-[48px] bg-c-3 dark:bg-d-3 rounded-xl" src="/img/matlab.svg" alt="" />
+            <p className="">M </p>
+          </div>
+
+          <div className="hover:shadow-xl hover:shadow-d-3 dark:hover:shadow-c-3
+          flex flex-grow-0 flex-shrink-0 flex-col text-center min-w-0 gap-4">
+            <img className="size-[48px] bg-c-3 dark:bg-d-3 rounded-xl" src="/img/python.svg" alt="" />
+            <p className="">Python</p>
           </div>
         </div>
       </div>
