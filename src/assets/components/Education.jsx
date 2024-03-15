@@ -4,9 +4,9 @@ const Education = () => {
     const [t] = useTranslation();
     return (
 
-        <div className="bg-c-2 dark:bg-d-2">
+        <div className="">
 
-            <div className="flex  gap-4 text-center text-sm">
+            <div className="flex flex-wrap justify-center gap-4 text-center text-sm">
                 <div className="flex gap-4 
                 bg-c-3 rounded-md p-1">
 

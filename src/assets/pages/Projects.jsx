@@ -12,12 +12,12 @@ const Projects = () => {
 
   return (
     <>
-      <main className="bg-c-2 dark:bg-d-2 h-full pt-20 ">
-        <div className='p-10'>
+      <main className="bg-c-2 dark:bg-d-2 pt-20">
+        <div className=''>
           <h2 className='p-5 text-c-1 dark:text-d-1 text-xl font-medium'>{t("Projects.Frontend")}</h2>
           <section className=" overflow-hidden ml-10" ref={emblaRefFrontend}>
             <div className="flex gap-4 dark:text-d-4">
-            <article
+              <article
                 className="p-2 relative flex flex-grow-0 flex-shrink-0 
                 min-w-0  justify-center flex-col gap-2 
               bg-c-1  border-c-1 dark:bg-d-1  dark:border-d-1 border-3 rounded-2xl
@@ -115,7 +115,7 @@ const Projects = () => {
                     {t("Projects.CB1")}
                   </h3>
                   <p className=" text-sm p-1 bg-c-2/40 dark:bg-d-2/40 rounded-md">
-                  {t("Projects.CB1C")}
+                    {t("Projects.CB1C")}
                   </p>
                   <a
                     className=" font-medium hover:text-c-2 text-c-4 dark:hover:text-c-2 dark:text-c-4 underline-offset-4 underline"

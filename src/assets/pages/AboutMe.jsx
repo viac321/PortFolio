@@ -7,27 +7,27 @@ const AboutMe = () => {
   const [t] = useTranslation();
 
   return (
-    <main className="bg-c-2 bg-auto dark:bg-d-2 h-screen">
-      <div className="p-5">
-        <article className="p-10" >
-          <div className="p-10 text-c-1 dark:text-d-4">
-            <p className="text-xl">{t("About.tech")}</p>
-            <div className=" flex justify-center">
+    <main className="bg-c-2 bg-auto min-h-screen pt-20 dark:bg-d-2 h-screen">
+
+      <article className="mt-5" >
+        <div className=" text-c-1 dark:text-d-4">
+          <p className="text-xl">{t("About.tech")}</p>
+          <div className=" flex justify-center">
             <Technologies />
-            </div>
           </div>
-          <div className="p-10 w-full">
-            <h2 className="pb-8 text-c-1 dark:text-d-1 text-xl">{t("SoftSkills.skill")}</h2>
-            <SoftSkills />
-          </div>
-          <div className="p-10 w-full" >
-            <h2 className="pb-10 text-xl text-c-1 dark:text-d-1">{t("Edu.title")}</h2>
-            <div className="flex justify-center" >
+        </div>
+        <div className=" w-full">
+          <h2 className=" text-c-1 dark:text-d-1 text-xl">{t("SoftSkills.skill")}</h2>
+          <SoftSkills />
+        </div>
+        <div className=" w-full flex flex-col gap-y-4" >
+          <h2 className="ml-5 text-xl text-c-1 dark:text-d-1">{t("Edu.title")}</h2>
+          <div className="flex justify-center" >
             <Education />
-            </div>
           </div>
-        </article>
-      </div>
+        </div>
+      </article>
+
     </main>
   );
 };

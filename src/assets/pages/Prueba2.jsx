@@ -21,10 +21,10 @@ export default function Prueba2() {
       )}
 
       <input
-        {...register("lastName")}        
+        {...register("lastName")}
       />
 
-<input
+      <input
         {...register("Company", { required: true })}
         aria-invalid={errors.Company ? "true" : "false"}
       />
@@ -40,7 +40,7 @@ export default function Prueba2() {
       {errors.mail && <p role="alert">{errors.mail.message}</p>}
 
       <input
-        {...register("PhoneNumber")}        
+        {...register("PhoneNumber")}
       />
       <input
         {...register("Message", { required: "Could you share what you want me to know?" })}

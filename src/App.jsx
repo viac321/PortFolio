@@ -15,26 +15,26 @@ import BarNav from "./assets/components/BarNav";
 
 
 function App() {
-  
+
   return (
     <>
       <HashRouter>
-        
+
         {/*{isMaxSm ?  : } 
         {isMaxSm ? <HamButton /> : <NavBar/>}*/}
-        <BarNav/>
-       
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<AboutMe />} />
-          <Route path="/technologies" element={<Technologies />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<ContactMe />} />
-          {/* <Route path="/contact" element={<ContactMe />} /> */}
-        </Routes>
+        <BarNav />
+        <main className="bg-c-2 dark:bg-d-2 min-h-screen h-full" >
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<AboutMe />} />
+            <Route path="/technologies" element={<Technologies />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<ContactMe />} />
+            {/* <Route path="/contact" element={<ContactMe />} /> */}
+          </Routes>
+        </main>
+        <Footer />
 
-        <Footer/>
-        
       </HashRouter>
 
     </>

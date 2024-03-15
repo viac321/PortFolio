@@ -6,7 +6,7 @@ const SoftSkills = () => {
     const [t] = useTranslation();
 
     return (
-        <div className=" bg-c-2 dark:bg-d-2">
+        <div className="">
             
             <div className="flex justify-center flex-none
             items-center text-center gap-8 flex-nowrap">

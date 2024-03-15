@@ -1,6 +1,6 @@
 const Reviews = () => {
   return (
-    <section id="reviews" className="section reviews bg-c-1 p-4">
+    <section id="reviews" className="section reviews min-h-screen bg-c-1 p-4">
             <div className="reviews__header">
               <h2 className="section__title2">
                 Testimonios<span className="span__dot">.</span>
