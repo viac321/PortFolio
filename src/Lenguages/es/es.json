@@ -15,7 +15,7 @@
     "name": "Ivan Aguirre",
     "about": "Apasionado por la codificación y la resolución de problemas, desde niña me han encantado los retos, mientras estudiaba biónica pude aprender más sobre lo que puede hacer la codificación y me hizo darme cuenta de que quería iniciar el camino del programador, enfrentándome a todas las oportunidades para crecer y ser más capaz.",
     "cv": "Descargar mi CV",
-    "cvLink":"https://1drv.ms/w/s!AhdEVC_vuxsm_nTvANpv9pUIM38o?e=x8IRAi"
+    "cvLink": "https://1drv.ms/w/s!AhdEVC_vuxsm_nTvANpv9pUIM38o?e=x8IRAi"
   },
   "NavBar": {
     "Home": "Inicio",
@@ -32,15 +32,15 @@
     "Title": "Proyectos",
     "Frontend": "Frontend con React y Vite",
     "more": "Ver más",
-    "CF1": "Rick and Morty App",
-    "CF1C": "Esta app fue creada usando React y Vite, usa la API de Rick y Morty, este proyecto tiene como conceptos base el uso de inputs, listas y keys en conjunto con el renderizado condicional.",
+    "CF1C": "App de Musica",
+    "CF1": "Esta App requiere el uso de estados globales y locales, react router, proteger las rutas con el uso de TOKEN y cuenta con comunicación con la API de Spotify. Enlace de github del proyecto: https://github.com/EstebanMartinez09/entregable6",
     "CF2C": "Este proyecto usa axios, redux y React Router, para poder consumir la API de Pokemon y mostrar la pokedex, permitiendo filtrar por tipo y nombre, permite modificar la cantidad de Pokemon que se muestran por página.",
     "CF2": "App de Pokemon",
-    "CF3C": "App de Musica",
-    "CF3": "Esta App requiere el uso de estados globales y locales, react router, proteger las rutas con el uso de TOKEN y cuenta con comunicación con la API de Spotify. Enlace de github del proyecto: https://github.com/EstebanMartinez09/entregable6",
+    "CF3": "Rick and Morty App",
+    "CF3C": "Esta app fue creada usando React y Vite, usa la API de Rick y Morty, este proyecto tiene como conceptos base el uso de inputs, listas y keys en conjunto con el renderizado condicional.",
     "Backend": "Backend with Node and Express",
-    "CB1": "Card1",
-    "CB1C": "Card1Desc",
+    "CB1": "API para comercio",
+    "CB1C": "Este proyecto se realizó usando NodeJs, Express, Sequelize y SQL, permite hacer uso de CRUD para usuarios, categorias, productos, carrito y compras.",
     "CB2C": "Card1",
     "CB2": "Card1Desc",
     "CB3C": "Card1",
@@ -69,14 +69,13 @@
   },
   "Edu": {
     "title": "Educación",
-    "edu1":"Ingeniero en biónica",
-      "date1":"2016 - 2023",
-      "school1":"IPN - UPIITA",
-      "place1":"CDMX, MX",
-      "edu2":"Desarrolldor Web Fullstack",
-      "date2":"2023 - 2024",
-      "school2":"ACADEMLO",
-      "place2":"CDMX, MX"
-
+    "edu1": "Ingeniero en biónica",
+    "date1": "2016 - 2023",
+    "school1": "IPN - UPIITA",
+    "place1": "CDMX, MX",
+    "edu2": "Desarrolldor Web Fullstack",
+    "date2": "2023 - 2024",
+    "school2": "ACADEMLO",
+    "place2": "CDMX, MX"
   }
 }

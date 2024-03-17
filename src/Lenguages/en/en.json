@@ -1,81 +1,80 @@
 {
-    "":{
-        "":""
-    },
-    "SideBar":{
-        "Home":"Home",
-        "About":"About",
-        "Technologies":"Technologies",
-        "Projects":"Projects",
-        "Contact":"Contact"    
-    },
-    "Home":{
-          "profession": "Fullstack Web Developer",
-          "name": "Ivan Aguirre" ,
-          "about": "Passionate about coding and problem solving. since I was a child I´ve loved challenges, while studying about bionics i could learn more about what coding can do and it made me realize i wanted to start the path of the coder, facing all the opportunities to grow and be more capable.",
-          "cv": "Download my CV",
-          "cvLink":"https://1drv.ms/w/s!AhdEVC_vuxsm_nUNfJkrPYjVkgd-?e=Boi3Ca"
-    },
-    "NavBar": {
-        "Home": "Home",
-        "About": "About",
-        "Technologies": "Technologies",
-        "Projects": "Projects",
-        "Contact": "Contact"
-    },
-    "ContactMe": {
-        "title": "You can share your contact info through this form!"
-    },
+  "": {
+    "": ""
+  },
+  "SideBar": {
+    "Home": "Home",
+    "About": "About",
+    "Technologies": "Technologies",
+    "Projects": "Projects",
+    "Contact": "Contact"
+  },
+  "Home": {
+    "profession": "Fullstack Web Developer",
+    "name": "Ivan Aguirre",
+    "about": "Passionate about coding and problem solving. since I was a child I´ve loved challenges, while studying about bionics i could learn more about what coding can do and it made me realize i wanted to start the path of the coder, facing all the opportunities to grow and be more capable.",
+    "cv": "Download my CV",
+    "cvLink": "https://1drv.ms/w/s!AhdEVC_vuxsm_nUNfJkrPYjVkgd-?e=Boi3Ca"
+  },
+  "NavBar": {
+    "Home": "Home",
+    "About": "About",
+    "Technologies": "Technologies",
+    "Projects": "Projects",
+    "Contact": "Contact"
+  },
+  "ContactMe": {
+    "title": "You can share your contact info through this form!"
+  },
 
-    "Projects" :{
-        "Title":"Projects",
-        "Frontend":"Frontend with React and Vite",
-        "more": "See more",
-        "CF1": "Rick and Morty App",
-        "CF1C": "This app was created with React and Vite and it need to use the Rick and Morty API, This project has as its base concepts the use of entries, lists and keys in conjunction with conditional rendering.",
-        "CF2C": "This project uses axios, redux and React Router, to be able to consume the Pokemon API and display the pokedex, allowing filtering by type and name, allowing you to modify the number of Pokemon displayed per page.",
-        "CF2": "Pokemon App",
-        "CF3": "Music App",
-        "CF3C": "This App requires the use of global and local states, react router, protect routes with the use of TOKEN and has communication with the Spotify API. Link to github: https://github.com/EstebanMartinez09/entregable6",
-        "Backend":"Backend with Node and Express",
-        "CB1": "Card1",
-        "CB1C": "Card1Desc",
-        "CB2C": "Card1",
-        "CB2": "Card1Desc"
-
-
-    },
-    "About" : {
-        "Title":"About me",
-        "tech": "Technologies I've used before: "
-    },
-    "Languages" : {
-        "title":"Languages",
-        "en":"English - B2",
-        "jap":"Japanese - N4"
-    },
-    "SoftSkills": {
-      "skill": "Soft Skills",  
-      "s1": "Communication",
-      "s2": "Organization",
-      "s3": "Active Listening",
-      "s4": "Patience",
-      "s5": "Empathy",
-      "s6": "Customer Service",
-      "s7": "Conflict Resolution",
-      "s8": "Negotiation",
-      "s9": "Emotional Intelligence"
-    },
-    "Edu": {
-      "title": "Education",
-      "edu1":"Bionics Engineer",
-      "date1":"2016 - 2023",
-      "school1":"IPN - UPIITA",
-      "place1":"CDMX, MX",
-      "edu2":"Fullstack Web Developer",
-      "date2":"2023 - 2024",
-      "school2":"ACADEMLO",
-      "place2":"CDMX, MX"
-  
-    }
+  "Projects": {
+    "Title": "Projects",
+    "Frontend": "Frontend with React and Vite",
+    "more": "See more",
+    "CF1": "Music App",
+    "CF1C": "This App requires the use of global and local states, react router, protect routes with the use of TOKEN and has communication with the Spotify API. Link to github: https://github.com/EstebanMartinez09/entregable6",
+    "CF2": "Pokemon App",
+    "CF2C": "This project uses axios, redux and React Router, to be able to consume the Pokemon API and display the pokedex, allowing filtering by type and name, allowing you to modify the number of Pokemon displayed per page.",
+    "CF3": "Rick and Morty App",
+    "CF3C": "This app was created with React and Vite and it need to use the Rick and Morty API, This project has as its base concepts the use of entries, lists and keys in conjunction with conditional rendering.",
+    "Backend": "Backend with Node and Express",
+    "CB1": "Ecommerce API",
+    "CB1C": "This project was carried out using Express, Sequelize and SQL, it allows using CRUD for users, categories, products, carts and purchases.",
+    "CB2C": "Card1",
+    "CB2": "Card1Desc",
+    "CB3C": "Card1",
+    "CB3": "Card1Desc"
+  },
+  "About": {
+    "Title": "About me",
+    "tech": "Technologies I've used before: "
+  },
+  "Languages": {
+    "title": "Languages",
+    "en": "English - B2",
+    "jap": "Japanese - N4"
+  },
+  "SoftSkills": {
+    "skill": "Soft Skills",
+    "s1": "Communication",
+    "s2": "Organization",
+    "s3": "Active Listening",
+    "s4": "Patience",
+    "s5": "Empathy",
+    "s6": "Customer Service",
+    "s7": "Conflict Resolution",
+    "s8": "Negotiation",
+    "s9": "Emotional Intelligence"
+  },
+  "Edu": {
+    "title": "Education",
+    "edu1": "Bionics Engineer",
+    "date1": "2016 - 2023",
+    "school1": "IPN - UPIITA",
+    "place1": "CDMX, MX",
+    "edu2": "Fullstack Web Developer",
+    "date2": "2023 - 2024",
+    "school2": "ACADEMLO",
+    "place2": "CDMX, MX"
+  }
 }
