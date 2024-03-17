@@ -216,8 +216,8 @@ export default function BarNav() {
                         <Menu.Button className="relative flex max-w-xs items-center 
                         rounded-full text-sm focus:outline-none
                          max-md:text-xs max-md:flex-col">
-                          <span className="absolute -inset-1.5" />
-                          <span className="sr-only">Open user menu</span>
+
+
                           <IconSettings className="h-8 w-8 max-md:size-6 rounded-full text-c-4" />
                           <span>  {t("SideBar.Settings")} </span>
 
