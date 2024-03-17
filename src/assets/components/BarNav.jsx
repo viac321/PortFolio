@@ -31,7 +31,7 @@ export default function BarNav() {
       setTheme('dark')
     }
   }
-  
+
   return (
     <>
       {/*
@@ -106,6 +106,7 @@ export default function BarNav() {
                             <span className="sr-only">Open user menu</span>
                             <IconSettings className="h-8 w-8 rounded-full text-c-4 dark:text-d-4" />
 
+
                           </Menu.Button>
                         </div>
                         <Transition
@@ -137,7 +138,7 @@ export default function BarNav() {
                               </label>
 
                               <label className="ml-6 relative inline-flex items-center cursor-pointer">
-                                <input className="sr-only peer" type="checkbox" onChange={handleToggleTheme}/>
+                                <input className="sr-only peer" type="checkbox" onChange={handleToggleTheme} />
                                 <div className="w-16 h-8 rounded-full ring-0 peer duration-500 outline-none 
                                 bg-c-2 overflow-hidden before:flex before:items-center before:justify-center 
                                   after:flex after:items-center after:justify-center before:content-['☀️'] 
@@ -178,7 +179,8 @@ export default function BarNav() {
 
               <Disclosure.Panel className="md:hidden">
                 <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
-                  <ul className="grid grid-flow-col justify-self-center font-thin size-sm gap-8 text-c-4 ">
+                  <ul className="grid grid-flow-col justify-self-center font-thin size-sm
+                   gap-8 max-md:gap-2 text-c-4 max-md:text-sm">
 
                     <li className="">
                       <Link className="w-full flex flex-col items-center hover:text-d-4" Link to={"/"}>
@@ -209,12 +211,15 @@ export default function BarNav() {
                       </Link>
                     </li>
 
-                    <Menu as="div" className="relative ml-3">
+                    <Menu as="div" className="relative">
                       <div>
-                        <Menu.Button className="relative flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none ">
+                        <Menu.Button className="relative flex max-w-xs items-center 
+                        rounded-full text-sm focus:outline-none
+                         max-md:text-xs max-md:flex-col">
                           <span className="absolute -inset-1.5" />
                           <span className="sr-only">Open user menu</span>
-                          <IconSettings className="h-8 w-8 rounded-full text-c-4" />
+                          <IconSettings className="h-8 w-8 max-md:size-6 rounded-full text-c-4" />
+                          <span>  {t("SideBar.Settings")} </span>
 
                         </Menu.Button>
                       </div>
@@ -247,7 +252,7 @@ export default function BarNav() {
                             </label>
 
                             <label className="ml-6 relative inline-flex items-center cursor-pointer">
-                              <input className="sr-only peer" type="checkbox" onChange={handleToggleTheme}/>
+                              <input className="sr-only peer" type="checkbox" onChange={handleToggleTheme} />
                               <div className="w-16 h-8 rounded-full ring-0 peer duration-500 outline-none 
                                 bg-c-2 overflow-hidden before:flex before:items-center before:justify-center 
                                   after:flex after:items-center after:justify-center before:content-['☀️'] 

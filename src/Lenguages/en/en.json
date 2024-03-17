@@ -7,7 +7,8 @@
     "About": "About",
     "Technologies": "Technologies",
     "Projects": "Projects",
-    "Contact": "Contact"
+    "Contact": "Contact",
+    "Settings": "Settings"
   },
   "Home": {
     "profession": "Fullstack Web Developer",
@@ -32,7 +33,7 @@
     "Frontend": "Frontend with React and Vite",
     "more": "See more",
     "CF1": "Music App",
-    "CF1C": "This App requires the use of global and local states, react router, protect routes with the use of TOKEN and has communication with the Spotify API. Link to github: https://github.com/EstebanMartinez09/entregable6",
+    "CF1C": "This App requires the use of global and local states, react router, protect routes with the use of TOKEN and has communication with the Spotify API.",
     "CF2": "Pokemon App",
     "CF2C": "This project uses axios, redux and React Router, to be able to consume the Pokemon API and display the pokedex, allowing filtering by type and name, allowing you to modify the number of Pokemon displayed per page.",
     "CF3": "Rick and Morty App",
