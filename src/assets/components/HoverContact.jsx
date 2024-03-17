@@ -2,7 +2,8 @@ import { IconBrandLinkedin, IconBrandWhatsapp, IconBrandGithub } from "@tabler/i
 
 const HoverContact = () => {
     return (
-        <div className="flex  relative items-center justify-center border-1  border-[1px] rounded-2xl ">
+        <div className="flex  relative items-center justify-center border-1  
+        backdrop-blur-sm bg-c-4/20 border-[1px] rounded-2xl ">
 
             <div className="rounded-xl overflow-hidden relative text-center p-4 group items-center 
             flex flex-col max-w-sm hover:shadow-2xl transition duration-500 shadow-xl
